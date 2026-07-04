@@ -1,71 +1,105 @@
 # 🎮 Tic-Tac-Toe Game in Java
 
-A simple console-based Tic-Tac-Toe game developed using **Object-Oriented Programming (OOP)** concepts in Java. The game allows two players to play on a customizable board and automatically detects winners and draws.
+A console-based **Tic-Tac-Toe Game** developed using **Object-Oriented Programming (OOP)** concepts in Java. This project was created as part of the **Weekend Dev Challenge #57: LLD Projects** conducted by CodeChef.
+
+![Java](https://img.shields.io/badge/Java-OOP-blue)
+![Project](https://img.shields.io/badge/Project-Completed-brightgreen)
+![CodeChef](https://img.shields.io/badge/Weekend%20Dev%20Challenge-57-orange)
+
+---
+
+## 🏆 About the Challenge
+
+This project was built for **Weekend Dev Challenge #57: LLD Projects**, organized by **CodeChef**. The challenge focuses on improving **Low-Level Design (LLD)** and **Object-Oriented Programming (OOP)** skills by implementing real-world projects.
+
+🔗 CodeChef: https://www.codechef.com
+
+🔗 My CodeChef Profile: https://www.codechef.com/users/jestin25
+
+---
 
 ## 🚀 Features
 
-* Two-player gameplay.
-* Dynamic board size support.
-* Winner detection for:
+* Two-player gameplay
+* Dynamic board creation
+* Winner detection:
 
   * Rows
   * Columns
-  * Diagonals
-* Draw detection.
-* Input validation for:
+  * Main diagonal
+  * Secondary diagonal
+* Draw detection
+* Input validation
+* Modular and reusable code structure
+* Demonstrates Java OOP principles
 
-  * Invalid positions
-  * Occupied cells
-* Clean and modular OOP design.
+---
 
 ## 📂 Project Structure
 
-```
+```text
 TicTacToe.java
 │
-├── Player        // Stores player name and symbol
-├── Board         // Manages game board and display
-├── GameEngine    // Handles game logic and winner checking
-└── TicTacToe     // Main class to run the game
+├── Player.java       // Stores player details
+├── Board.java        // Manages board creation and display
+├── GameEngine.java   // Contains game logic and winner checking
+└── TicTacToe.java    // Main class to run the game
 ```
+
+---
 
 ## 🛠 Technologies Used
 
 * Java
 * Object-Oriented Programming (OOP)
 * Arrays
-* Conditional Statements
-* Loops
+* Loops and Conditionals
+* Encapsulation
+* Constructors and Methods
 
-## ▶️ How to Run
+---
 
-### 1. Clone the Repository
+## 🧩 OOP Concepts Implemented
+
+* Classes and Objects
+* Encapsulation
+* Composition
+* Abstraction
+* Modular Design
+
+---
+
+## ▶️ How to Run the Project
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-java.git
+git clone https://github.com/your-github-username/tic-tac-toe-java.git
 ```
 
-### 2. Navigate to the Project Folder
+### Move to Project Directory
 
 ```bash
 cd tic-tac-toe-java
 ```
 
-### 3. Compile the Program
+### Compile the Program
 
 ```bash
 javac TicTacToe.java
 ```
 
-### 4. Run the Program
+### Run the Program
 
 ```bash
 java TicTacToe
 ```
 
-## 🎯 Sample Output
+---
 
-```
+## 📸 Sample Output
+
+```text
 Alice attempts to place 'X' at (0, 0)
 [X][ ][ ]
 [ ][ ][ ]
@@ -75,31 +109,43 @@ Bob attempts to place 'O' at (1, 1)
 [X][ ][ ]
 [ ][O][ ]
 [ ][ ][ ]
+
+Alice attempts to place 'X' at (0, 1)
+[X][X][ ]
+[ ][O][ ]
+[ ][ ][ ]
+
+Alice wins!
 ```
 
-## 📚 OOP Concepts Implemented
-
-* Classes and Objects
-* Encapsulation
-* Constructors
-* Method Abstraction
-* Composition
+---
 
 ## 🔮 Future Enhancements
 
-* User input using Scanner.
-* Single-player mode with AI.
-* Scoreboard system.
-* Restart game option.
-* GUI using Java Swing or JavaFX.
-* Save and load game functionality.
+* User input using Scanner
+* Single-player mode with AI
+* Scoreboard system
+* Restart game option
+* GUI using Java Swing or JavaFX
+* Multiplayer support
+* Save and Load Game
+
+---
 
 ## 👨‍💻 Author
 
 **Jestin M K**
 
-* Passionate Java Developer
-* Problem Solver
-* Continuous Learner
+Passionate Java Developer | Problem Solver | Continuous Learner
 
-⭐ If you like this project, don't forget to **star** the repository!
+🔗 GitHub: https://github.com/your-github-username
+
+🔗 CodeChef: https://www.codechef.com/users/jestin25
+
+---
+
+## 🌟 Acknowledgement
+
+This project was developed as part of **Weekend Dev Challenge #57: LLD Projects** conducted by **CodeChef**, helping developers strengthen their Low-Level Design and Object-Oriented Programming skills.
+
+⭐ If you like this project, don't forget to **Star ⭐ the repository** and connect with me on CodeChef!
